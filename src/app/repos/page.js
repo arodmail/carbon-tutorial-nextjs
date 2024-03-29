@@ -125,7 +125,7 @@ function RepoPage() {
           backwardText="Previous page"
           forwardText="Next page"
           pageSize={currentPageSize}
-          pageSizes={[5, 10, 15, 25]}
+          pageSizes={[5, 10, 15]}
           itemsPerPageText="Items per page"
           onChange={({ page, pageSize }) => {
             if (pageSize !== currentPageSize) {

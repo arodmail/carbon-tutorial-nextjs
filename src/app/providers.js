@@ -7,10 +7,10 @@ import TutorialHeader from '@/components/TutorialHeader/TutorialHeader';
 export function Providers({ children }) {
   return (
     <div>
-      <Theme theme="g100">
+      <Theme theme="g90">
         <TutorialHeader />
+        <Content>{children}</Content>
       </Theme>
-      <Content>{children}</Content>
     </div>
   );
 }
